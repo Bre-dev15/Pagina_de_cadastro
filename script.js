@@ -34,8 +34,6 @@ if (formCadastro) {
         if (senha !== confirmacao) {
             alert('As senhas não coincidem. Tente novamente.');
         } else {
-            // Aqui você poderia salvar os dados (opcional)
-            // Ex: localStorage.setItem('usuario', JSON.stringify({ nome, email }));
 
             alert('Cadastro realizado com sucesso!');
             window.location.href = 'login.html'; // Redireciona para a página de login
